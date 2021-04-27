@@ -38,6 +38,7 @@ public class ExerciseOne {
     // E.g. given the word "redorangeyellowgreen", "redgreen" should be returned
     private String wordCombo(String word) {
         return word.substring(0,3)+word.substring(15,20);
+        return word.substring(0,3)+word.substring(word.length()-5);
     }
     
     // Complete this method to return the frequencey of 
