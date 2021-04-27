@@ -95,27 +95,27 @@ Exercise 3
 
 // Create your JavaScript objects
 let person = {
-   firstName: "Snow",
-   lastName: "White",
+   firstName: "Tom",
+   lastName: "Jerry",
    favouriteColour: "black",
    isFiction: true,
-   age: 18,
+   age: 22,
    address: {
-      streetAddress: "7 Fairytale Lane",
-      city: "Fairytale Forest"
+      streetAddress: "123 Happy Time",
+      city: "Lucky City"
    },
    phoneNumbers:[
       {
          type: "home",
-         number: "01 123-4567"
+         number: "01 111-2222"
       },
       {
          type: "office",
-         number: "01 555-4567"
+         number: "01 222-4433"
       },
       {
          type: "mobile",
-         number: "028 456-7890"
+         number: "028 456-1234"
       }
    ],
    spouse: null
@@ -123,6 +123,7 @@ let person = {
 
 // print different properties of your objects
 console.log("First name of person: " + person.firstName);
+console.log("Last name of person: " + person.lastName);
 console.log("Favourite colour:" + person.favouriteColour);
 for (i in person.phoneNumbers) {
     console.log("Phone number: " + person.phoneNumbers[i].number);
